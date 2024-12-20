@@ -65,7 +65,7 @@ def speed_test(event):
         save()
         
 def get_entered_text(event):
-    global compare, mistakes_list, errors
+    global compare
     mistakes_list = []
     words = main_text.get(0.0, END)
     words_list = words.split()
@@ -77,9 +77,6 @@ def get_entered_text(event):
     if len(compare) < 1:
         words_text.config(text=len(model_text))
     written_text_label.config(text=len(compare))
-    for letter in entered_words:
-        if letter != event.char:
-            errors +=1
                 
 def restart():
     global typed_text, written_text, text, model_text, timer, corrections
