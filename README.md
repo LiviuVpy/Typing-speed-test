@@ -1,7 +1,9 @@
 Typing speed test app
+
 Based on Python allows you to find out how fast can you write a number of words.
 
 GUI Layout
+
 The app will ask first for a name, and if it exists in the external json file will show previous performance based on the time result. The layout is shown in the following images:
 
 <img width="167" alt="Screenshot 2024-12-20 141442" src="https://github.com/user-attachments/assets/ebda3d94-2159-4ef0-a293-103960481a4d" />
